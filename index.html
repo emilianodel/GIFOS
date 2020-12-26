@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="gifos.css">
+    <title>GIFOS</title>
+</head>
+<body>
+    <header>
+            <nav>
+                <img alt="GIFOS Logo" class="logo" src="/Images/logo-mobile.svg" />  
+                <div id="bar-container"> 
+                    <i class="fas fa-bars" id="bars"></i>
+                </div>
+                <ul id="menu">              
+                    <li><a href="#">MODO NOCTURNO</a></li>
+                    <li><a href="#">FAVORITOS</a></li>
+                    <li><a href="#">MIS GIFOS</a></li>
+                    <img alt="Plus Imagen" class="plus" id="plus" src="/Images/button-crear-gifo.svg" />  
+                </ul>
+            </nav>
+    </header>
+    <section class="section_one">
+        <h1> Inspírate, busca, guarda, y crea <br> los mejores <span>GIFOS</span></h1>
+        <img alt="imagen principal" class="imagen-principal" src="/Images/ilustra_header.svg" />
+        <div class="search-bar">
+            <form id="search-form">
+                <input id="search-input" type="text" placeholder="Busca GIFOS y más"></input>
+                <button type="submit" id ="search-btn"> </button>
+                <span id="search_icon" class="fas fa-search"></span>
+                <ul class="autocom-box"></ul>
+            </form>
+           
+        </div>
+        <div id="results">
+        
+
+        </div>
+    </section>
+    <section class="section_two">
+        
+    </section>
+       
+    <script  src="gifos.js"></script>
+    <script  src="searchbar.js"></script>
+    
+</body>
+</html>
